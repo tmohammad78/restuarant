@@ -1,0 +1,39 @@
+.cover {
+  position: relative;
+  .imageBox {
+    .image {
+      height: 250px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      filter: blur(3px);
+    }
+  }
+  .infoBox {
+    position: absolute;
+    top: 50%;
+    width: 700px;
+    right: 50%;
+    background-color: white;
+    border-radius: 15px;
+    transform: translate(50%, 0%);
+    padding: 20px 10px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.51);
+    .imgBox {
+      position: relative;
+      top: -65px;
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      border: 1px solid #ffffff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.51);
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

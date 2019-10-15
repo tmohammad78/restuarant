@@ -1,0 +1,1 @@
+export const FETCH_FOOD_MENU = "FETCH_FOOD_MENU";
